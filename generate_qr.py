@@ -1,9 +1,9 @@
 import qrcode
 
-bot_url = "http://<your-ec2-public-ip>:8501"  
+bot_url = "https://summer-bot-ksugd9jrvwqllxqfbldkqz.streamlit.app/"
 
 qr = qrcode.make(bot_url)
 
-qr.save("bot_qr_code.png")
+qr.save("summer_bot_qr.png")
 
-print("✅ QR code generated successfully as 'bot_qr_code.png'")
+print("✅ QR code generated successfully as 'summer_bot_qr.png'")
